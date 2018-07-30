@@ -1,8 +1,8 @@
-+++
+---
 date: 2018-07-30
 title: "First post"
 tags: [intro, info]
-+++
+---
 
 Well you kind of need to create this first post right?
 
