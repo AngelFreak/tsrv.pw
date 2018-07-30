@@ -1,4 +1,4 @@
-baseurl = "https://tsrv.pw/"
+baseurl = "tsrv.pw"
 languageCode = "en-dk"
 title = "Freaksite"
 theme = "hello-friend"
@@ -6,10 +6,6 @@ copyright = ""
 paginate = 5
 
 [params]
-
-#[params.logo]
-#   path = "/img/your-example-logo.svg"
-#   alt = ""
 [menu]
   [[menu.main]]
     identifier = "about"
