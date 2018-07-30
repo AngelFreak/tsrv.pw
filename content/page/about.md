@@ -1,30 +1,40 @@
----
-title: About me
-subtitle: Why do you want to know stuff about me ?
-comments: false
----
++++
+title = "About me"
+date = "2018-07-30"
+author = "Teis"
++++
 
-My name is Teis Angel Clausen im 24 years old, and i live in Denmark.
+<h2>> Hey there<span class="logo__cursor" style="width: 3px; height: 1.625rem;"></span></h2>
+
+AFK my name is Teis Angel Clausen. Online i usually go by AngelFreak, or Freakang.
+
+Go visit some of my pages:
+
+https://github.com/AngelFreak
+
+https://galaxy.ansible.com/AngelFreak
+
+https://hub.docker.com/u/freakang/
+
 
 **Things i care about:**
 
 #privacy #righttorepair #netneutrality #foss #openhardware #tor #freedomofpress #freedomofspeech #ulovliglogning
 
-I really love to use open source tech, and help other people. I plan to run a tor relay shortly, because i really wanna contribute, and i have a lot of bandwidth.
-
 **Here are some info about me:**
 
 **Work:**
+
 I'm currently a sysadmin / DevOps enginner at Jobindex A/S.
 
-We run the largest job portal in Denmark!, along whit some other sites.
+We run the largest job portal in Denmark!, along with some other sites.
 
 We primarily use unix like system to run our infrastructure. I use ansible to deploy stuff, and vagrant for testing.
 Our network is currently a mess of providers, but we are switching to Juniper (Wuhuu!).
 
+**Education:**
 
-**Graduation:**
-I graduated from Technical Educational Center as a data technician specializing in infrastructure, in 2016. I was a trainee at The danish army of defence for the period of my education.
+I graduated from Technical Educational Center as a data technician specializing in infrastructure, in 2016. I was a trainee at The danish army of defence during my education.
 
 **Personal:**
 
@@ -42,10 +52,4 @@ I'm a private in the danish home guard, my position in the squad is LMG soldier 
 
 - Void Linux laptops.
 
-- Manjaro Linux desktop.
-
-- UniFi network.
-
 - UniFi wireless.
-
-If you wanna know more, you're a stalker.
