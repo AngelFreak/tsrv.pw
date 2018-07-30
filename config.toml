@@ -1,4 +1,5 @@
-baseurl = "http://tsrv.pw/" appendPort = false
+baseurl = "http://tsrv.pw/"
+appendPort = false
 languageCode = "en-dk"
 title = "Freaksite"
 theme = "hello-friend"
