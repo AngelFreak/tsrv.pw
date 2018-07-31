@@ -1,5 +1,5 @@
 baseurl = "/"
-relativeURLs true
+relativeURLs = true
 languageCode = "en-dk"
 title = "Freaksite"
 theme = "hello-friend"
