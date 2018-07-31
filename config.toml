@@ -1,4 +1,4 @@
-baseurl = "http://tsrv.pw"
+baseurl = "/"
 languageCode = "en-dk"
 title = "Freaksite"
 theme = "hello-friend"
