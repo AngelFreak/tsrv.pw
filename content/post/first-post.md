@@ -1,6 +1,7 @@
 ---
 date: 2018-07-30
 title: "First post"
+author: "Teis Angel Clausen"
 tags: [intro, info]
 ---
 
