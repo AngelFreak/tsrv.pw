@@ -21,5 +21,5 @@ I live in Denmark
    class="h-card"><img src="avatar120.jpeg" class="avatar"></a>
 
  **Teis Angel Clausen**<br>
- _System administartor_<br>
+ _System administrator_<br>
  teisangel@tsrv.pw
