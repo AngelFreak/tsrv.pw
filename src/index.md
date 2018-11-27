@@ -3,7 +3,7 @@ Well hello, and welcome.
 
 This my my boring looking website, where you can find some HowTo's and information about stuff i do.
 
-I did not wanna make a huge deal out of this website, so i tuned to [ssg2](https://www.romanzolotarev.com/ssg.html) by [Roman Zolotarev](https://twitter.com/romanzolotarev).
+I did not wanna make a huge deal out of this website, so i tuned to [ssg](https://www.romanzolotarev.com/ssg.html).
 
 It's AWESOME!!
 
@@ -23,6 +23,3 @@ I live in Denmark
  **Teis Angel Clausen**<br>
  _System administartor_<br>
  teisangel@tsrv.pw
-
-**Thanks** to
-    [Roman Zolotarev](https://twitter.com/romanzolotarev) for [ssg2](https://www.romanzolotarev.com/ssg.html)
