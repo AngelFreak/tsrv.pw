@@ -1,0 +1,32 @@
+version: "3"
+services:
+  tsrvpw:
+    image: nginx
+    restart: on-failure
+    ports:
+      - "8082:80"
+    networks:
+      - tsrvpw-net
+      - traefik_proxy
+    volumes:
+      - ./dst:/usr/share/nginx/html:ro
+    labels:
+      - "traefik.enable=true"
+      - "traefik.backend=tsrvpw"
+      - "traefik.frontend.rule=Host:tsrv.pw"
+      - "traefik.port=8082"
+      - "traefik.protocol=http"
+      - "traefik.docker.network=traefik_proxy"
+      - "traefik.frontend.headers.STSSeconds=315360000"
+      - "traefik.frontend.headers.browserXSSFilter=true"
+      - "traefik.frontend.headers.contentTypeNosniff=true"
+      - "traefik.frontend.headers.forceSTSHeader=true"
+      - "traefik.frontend.headers.STSIncludeSubdomains=true"
+      - "traefik.frontend.headers.STSPreload=true"
+      - "traefik.frontend.headers.frameDeny=true"
+
+networks:
+  tsrvpw-net:
+    traefik_proxy:
+      external:
+      name: traefik_proxy
