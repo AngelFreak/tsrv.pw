@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>//www/src/</loc>
+<lastmod>2018-11-27</lastmod>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>//www/src/README.html</loc>
+<lastmod>2018-11-27</lastmod>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>//www/dst/</loc>
+<lastmod>2018-11-27</lastmod>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>//www/README.html</loc>
+<lastmod>2018-11-27</lastmod>
+<priority>1.0</priority>
+</url>
+</urlset>
