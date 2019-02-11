@@ -1,4 +1,4 @@
-# Freakworld
+<p class="title"><a href="https://tsrv.pw" class="h-card"><img src="/assets/img/avatar.png" class="avatar"><span class="p-name">tsrv.pw</span></a></p>
 Well hello, and welcome.
 
 This my my boring looking website, where you can find some HowTo's and information about stuff i do.
@@ -11,15 +11,9 @@ It's AWESOME!!
 AFK i'm Teis, online i'm mostly AngelFreak.
 
 I work in IT, primarily as some kind of operations engineer.
-At the momment im a system administrator for [Jobindex](https://jobindex.dk).
+At the momment i'm a system administrator at [Jobindex](https://jobindex.dk).
 
 In my free time im a private in the Danish Home Guard.
 
-I live in Denmark
-
- <a href="https://www.tsrv.pw/"
-   class="h-card"><img src="avatar120.jpeg" class="avatar"></a>
-
- **Teis Angel Clausen**<br>
- _System administrator_<br>
- teisangel@tsrv.pw
+## Contact
+Catch me on <a href="https://twitter.com/Teis_Angel">twitter</a>, or send me an electronic mail at <a href="mailto:teisangel@tsrv.pw" target="_blank">teisangel@tsrv.pw</a> 

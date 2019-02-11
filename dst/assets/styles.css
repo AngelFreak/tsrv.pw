@@ -1,0 +1,51 @@
+* { box-sizing: border-box; }
+body { text-rendering: optimizeLegibility; margin: 0 auto; max-width: 800px; padding: 20px; background-color: #f4f4f4; color: #444444; line-height: 1.5em; }
+a { color: #204fd5; }
+a:visited { color: #334f83; }
+a:hover { color: #204fd5; }
+body,
+.form__textarea,
+.form__button,
+.form__field { font-family: "Noto Serif", serif; font-size: 20px; }
+h1 { line-height: 1.25em; }
+hr,
+h1,
+h2 { margin-top: 60px; }
+hr { border: 0; }
+li { padding: 5px 0; }
+pre { font-size: 15px; overflow-x: auto; line-height: 1.4em; color: #444444; }
+pre b { color: #000000; }
+pre strong { background-color: #0000cc; color: #ffffff; }
+pre em { background-color: #ffeeaa; }
+pre i { font-style: normal; color: #444444; }
+pre i::before { content: "> "; color: #aaaaaa; }
+pre,
+blockquote { margin-bottom: 40px; }
+p img,
+table { width: 100%; }
+p { clear: both; }
+.avatar { float: right; width: 80px; heigth: 80px; border-radius: 80px; }
+.h3b { float: right; width: 150px; heigth: 150px; }
+.left { float: left; margin: 8px 24px 24px 0; }
+.title { text-indent: -16px; font-size: 32px; line-height: 1.24em; font-style: italic; }
+.title a { text-decoration: none; color: #444444; }
+.form__error { font-weight: bold; color: #aa0000; }
+.form__label,
+.form__textarea,
+.form__button,
+.form__field { margin-bottom: 10px; display: inline-block; }
+.form__field,
+.form__textarea { width: 100%; max-width: 400px; }
+.form__button,
+.form__textarea,
+.form__field { -webkit-appearance: none; padding: 15px; }
+.form__textarea,
+.form__field { background-color: #ffffff; color: #000000; border: solid 1px #888888; }
+.form__button { background-color: #334f83; border: solid 1px #334f83; color: #ffffff; font-weight: bold; display: inline-block; text-align: center; text-decoration: none; }
+.form__button-h3b { background-color: #1e88e5; border: solid 1px #1e88e5; color: #ffffff; }
+.form__button-oams { background-color: #ec0000; border: solid 1px #ec0000; color: #ffffff; }
+.form__button-small { padding: 0 10px; font-size: 12px; background-color: #f4f4f4; border: solid 1px #444444; color: #444444; }
+.form__button-h3b-hover:hover { background-color: #6cbb23; border: solid 1px #6cbb23; color: #ffffff; }
+.form__button-oams-hover:hover { background-color: #ec0000; border: solid 1px #ec0000; color: #ffffff; }
+.form__button-hover:hover { background-color: #334f83; border: solid 1px #334f83; color: #ffffff; }
+

@@ -1,0 +1,3 @@
+# The thought space
+
+Well thats a whole lot of nothing....
