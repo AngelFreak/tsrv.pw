@@ -16,4 +16,6 @@ At the momment i'm a system administrator at [Jobindex](https://jobindex.dk).
 In my free time im a private in the Danish Home Guard.
 
 ## Contact
-Catch me on <a href="https://twitter.com/Teis_Angel">twitter</a>, or send me an electronic mail at <a href="mailto:teisangel@tsrv.pw" target="_blank">teisangel@tsrv.pw</a> 
+Catch me on <a href="https://twitter.com/Teis_Angel">twitter</a>, or send me an electronic mail at <a href="mailto:teisangel@tsrv.pw" target="_blank">teisangel@tsrv.pw</a>
+
+Wanna verify me? Take a look at my <a href="https://keybase.io/angelfreak">keybase profile</a>
