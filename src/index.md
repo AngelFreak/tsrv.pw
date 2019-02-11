@@ -1,9 +1,9 @@
 <p class="title"><a href="https://tsrv.pw" class="h-card"><img src="/assets/img/avatar.png" class="avatar"><span class="p-name">tsrv.pw</span></a></p>
 Well hello, and welcome.
 
-This my my boring looking website, where you can find some HowTo's and information about stuff i do.
+This my my boring looking website, where you maybe can find some HowTo's and information about stuff i do.
 
-I did not wanna make a huge deal out of this website, so i tuned to [ssg](https://www.romanzolotarev.com/ssg.html).
+I did not wanna make a huge deal out of this website, so i turned to [ssg](https://www.romanzolotarev.com/ssg.html).
 
 It's AWESOME!!
 
