@@ -21,3 +21,4 @@ steps:
     source: ./dst/*
     recursive: true
     delete: true
+    secrets: [ rsync_key ]
