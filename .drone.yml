@@ -7,12 +7,12 @@ steps:
   branches: master
 
 - name: deploy-website
-    image: drillster/drone-rsync
-    hosts: [ "46.23.92.224:2222" ]
-    user: angelfreak
-    key:
-      from_secret: plugin_key
-    source: dst
-    target: /var/www/tsrv.pw
-    recursive: true
-    delete: true
+  image: drillster/drone-rsync
+  hosts: [ "46.23.92.224:2222" ]
+  user: angelfreak
+  key:
+    from_secret: plugin_key
+  source: dst
+  target: /var/www/tsrv.pw
+  recursive: true
+  delete: true
