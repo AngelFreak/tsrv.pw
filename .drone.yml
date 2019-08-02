@@ -17,6 +17,5 @@ steps:
     key:
       from_secret: plugin_key
     source: /dst
-    target: /var/www/tsrv.pw
+    target: /home/www/tsrv.pw
     recursive: true
-    delete: true
