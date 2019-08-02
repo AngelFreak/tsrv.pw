@@ -7,7 +7,6 @@ steps:
   environment:
     SITE: tsrv.pw
     URL: https://tsrv.pw
-  branches: master
 
 - name: deploy-website
   image: drillster/drone-rsync
