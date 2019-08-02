@@ -12,7 +12,7 @@ steps:
   image: drillster/drone-rsync
   environment:
     RSYNC_KEY:
-      from_secret: plugin_key
+      from_secret: rsync_key
   settings:
     hosts: ["46.23.92.224"]
     user: angelfreak
