@@ -9,12 +9,16 @@ steps:
     URL: https://tsrv.pw
 
 - name: deploy-website
-  image: appleboy/drone-scp
-  settings:
-    host: '46.23.92.224'
-    username: angelfreak
-    port: '2223'
-    key:
+  image: drillster/drone-rsync
+  environment:
+    RSYNC_KEY:
       from_secret: plugin_key
+    RSYNC_USER:
+      from_secret: plgin_user
+  settings:
+    hosts:
+      - '46.23.92.224'
+    port: '2223'
     target: /home/www/tsrv.pw
     source: /dst
+    secrets: [ plugin_key, plugin_user ]
