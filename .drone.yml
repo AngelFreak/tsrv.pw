@@ -14,9 +14,9 @@ steps:
     RSYNC_KEY:
       from_secret: plugin_key
   settings:
-    hosts: ['46.23.92.224']
+    hosts: ["46.23.92.224"]
     user: angelfreak
-    port: '2223'
+    port: "2223"
     target: /home/www/tsrv.pw
     source: ./dst/*
     recursive: true
