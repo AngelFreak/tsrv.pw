@@ -13,8 +13,8 @@ steps:
     image: appleboy/drone-scp
     settings:
       host: '46.23.92.224'
-+     username: angelfreak
-+     port: '2223'
+      username: angelfreak
+      port: '2223'
       key:
         from_secret: plugin_key
       target: /home/www/tsrv.pw
