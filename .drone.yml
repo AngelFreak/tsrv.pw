@@ -10,15 +10,15 @@ steps:
 
 - name: deploy-website
   image: drillster/drone-rsync
-  environment:
-    RSYNC_KEY:
-      from_secret: plugin_key
-    RSYNC_USER:
-      from_secret: plgin_user
   settings:
     hosts:
       - '46.23.92.224'
+    key:
+      from_secret: plugin_key
+    user:
+      from_secret: plugin_user
     port: '2223'
     target: /home/www/tsrv.pw
     source: /dst
-    secrets: [ plugin_key, plugin_user ]
+    recursive: true
+    delete: true
