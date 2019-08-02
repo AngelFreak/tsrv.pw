@@ -3,7 +3,10 @@ name: default
 
 steps:
 - name: build-website
-  image: angelfreak/docker-ssg
+  image: angelfreak/docker-ssg:latest
+  environment:
+    SITE: tsrv.pw
+    URL: https://tsrv.pw
   branches: master
 
 - name: deploy-website
