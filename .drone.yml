@@ -19,6 +19,6 @@ steps:
       from_secret: plugin_user
     port: '2223'
     target: /home/www/tsrv.pw
-    source: /dst
+    source: /dst/*
     recursive: true
     delete: true
