@@ -1,9 +1,12 @@
-pipeline:
-  build:
+kind: pipeline
+name: default
+
+steps:
+- name: build-website
     image: angelfreak/docker-ssg
   branches: master
 
-  deploy:
+- name: deploy-website
     image: drillster/drone-rsync
     hosts: [ "46.23.92.224:2222" ]
     user: angelfreak
