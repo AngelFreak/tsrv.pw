@@ -12,12 +12,13 @@ steps:
   image: appleboy/drone-scp
   settings:
     host:
-      from_secret: plugin_hosts
+      from_secret: host
     user:
-      from_secret: rsync_user
+      from_secret: user
     key:
       from_secret: deploy_key
-    port: 2223
+    port:
+      from_secret: ssh_port
     command_timeout: 2m
     target: /home/www/tsrv.pw
     source:
