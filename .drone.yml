@@ -11,14 +11,15 @@ steps:
 
 - name: deploy-website
   image: drillster/drone-rsync
+  environment:
+    RSYNC_KEY:
+      from_secret: rsync_key
+    RYNC_USER:
+      from_secret: rsync_user
   settings:
     hosts:
       from_secret: plugin_hosts
     port: "2223"
-    key:
-      from_secret: rsync_key
-    user:
-      from_secret: rsync_user
     source: ./dst/*
     target:
       from_secret: plugin_target
