@@ -11,11 +11,15 @@ steps:
 
 - name: deploy-website
   image: drillster/drone-rsync
-  hosts: [ "46.23.92.224" ]
-  port: "2223"
-  user: "angelfreak"
-  secrets: [ rsync_key ]
-  source: ./dst
-  target: /var/www/tsrv.pw/
-  recursive: true
-  delete: true
+  envoronment:
+    RSYNC_KEY:
+      from_secret rsync_key
+  settings:
+    hosts: [ "46.23.92.224" ]
+    port: "2223"
+    user: "angelfreak"
+    secrets: [ rsync_key ]
+    source: ./dst
+    target: /var/www/tsrv.pw/
+    recursive: true
+    delete: true
