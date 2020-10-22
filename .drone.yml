@@ -20,7 +20,6 @@ steps:
       from_secret: deploy_key
     port: 2223
     command_timeout: 2m
-    target: /home/www/tsrv.pw
-    strip_components: 1
+    target: /home/www/tsrv.pw/
     source:
       - dst/*
