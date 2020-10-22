@@ -5,11 +5,8 @@ name: default
 steps:
 - name: build-website
   image: angelfreak/docker-ssg:latest
-  environment:
-    SITE: tsrv.pw
-    URL: https://tsrv.pw
   commands:
-      - /bin/ssg5 /src /dst $SITE $URL
+    - /bin/ssg5 /src /dst tsrv.pw https://tsrv.pw
 
 - name: deploy-website
   image: appleboy/drone-scp
