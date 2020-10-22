@@ -9,7 +9,7 @@ steps:
     SITE: tsrv.pw
     URL: https://tsrv.pw
   commands:
-      - run.sh
+      - /bin/ssg5 /src /dst $SITE $URL
 
 - name: deploy-website
   image: appleboy/drone-scp
