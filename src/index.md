@@ -10,8 +10,7 @@ It's AWESOME!!
 ## Briefly about me
 AFK i'm Teis, online i'm mostly AngelFreak.
 
-I work in IT, primarily as some kind of operations engineer.
-At the momment i'm a system administrator at [Jobindex](https://jobindex.dk).
+I work in IT, primarily as some kind of operations engineer / devops engineer.
 
 In my free time im a sergeant in the Danish Home Guard.
 
