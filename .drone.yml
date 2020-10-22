@@ -8,6 +8,8 @@ steps:
   environment:
     SITE: tsrv.pw
     URL: https://tsrv.pw
+  commands:
+      - run.sh
 
 - name: deploy-website
   image: appleboy/drone-scp
