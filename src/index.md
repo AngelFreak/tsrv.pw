@@ -1,4 +1,6 @@
 <p class="title"><a href="https://tsrv.pw" class="h-card"><img src="assets/tac.jpg" class="avatar"><span class="p-name">tsrv.pw</span></a></p>
+![alt text](assets/tac.jpg "Picture of Teis")
+
 Well hello, and welcome.
 
 This my my boring looking website, where you maybe can find some HowTo's and information about stuff i do.
