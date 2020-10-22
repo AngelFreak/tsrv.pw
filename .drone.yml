@@ -19,8 +19,7 @@ steps:
       from_secret: rsync_user
     key:
       from_secret: rsync_key
-    target:
-      from_secret: /home/www/tsrv.pw/
+    target: /home/www/tsrv.pw/
     source: /dst/*
     exclude:          # Optional to exclude some files or directories
       - "README.md"
