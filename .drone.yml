@@ -17,7 +17,7 @@ steps:
     user:
       from_secret: rsync_user
     key:
-      from_secret: rsync_key
+      from_secret: deploy_key
     port: 2223
     command_timeout: 2m
     target: /home/www/tsrv.pw
