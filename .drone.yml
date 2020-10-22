@@ -20,6 +20,6 @@ steps:
     user: "angelfreak"
     secrets: [ rsync_key ]
     source: ./dst
-    target: /var/www/tsrv.pw/
+    target: /home/www/tsrv.pw/
     recursive: true
     delete: true
