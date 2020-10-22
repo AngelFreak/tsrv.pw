@@ -22,5 +22,4 @@ steps:
     command_timeout: 2m
     target: /home/www/tsrv.pw
     source:
-      - dst
-    rm: true
+      - dst/*
