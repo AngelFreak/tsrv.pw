@@ -11,19 +11,19 @@ steps:
 
 - name: deploy-website
   image: drillster/drone-rsync
-   settings:
-      hosts:
-        from_secret: plugin_hosts
-      port: 2223
-      user:
-        from_secret: rsync_user
-      key:
-        from_secret: rsync_key
-      target:
-        from_secret: /home/www/tsrv.pw/
-      source: /dst/*
-      exclude:          # Optional to exclude some files or directories
-        - "README.md"
-        - ".files"
-      recursive: true   # Update files recursively on remote, needed if directories
-      delete: true      # Remove remote files not present on client side
+  settings:
+    hosts:
+      from_secret: plugin_hosts
+    port: 2223
+    user:
+      from_secret: rsync_user
+    key:
+      from_secret: rsync_key
+    target:
+      from_secret: /home/www/tsrv.pw/
+    source: /dst/*
+    exclude:          # Optional to exclude some files or directories
+      - "README.md"
+      - ".files"
+    recursive: true   # Update files recursively on remote, needed if directories
+    delete: true      # Remove remote files not present on client side
